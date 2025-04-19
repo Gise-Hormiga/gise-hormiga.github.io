@@ -99,7 +99,7 @@ function cargarTodas(casas) {
       <div class="casa-detalles">
         <h3 class="casa-titulo">${casa.titulo}</h3>
         <p class="casa-precio">$${casa.precio} por noche</p>
-        <button class="casa-reserva">Reservar</button>
+        <button class="casa-reserva">Más Info</button>
       </div>
     `;
     contenedorTodasCasas.appendChild(div);
@@ -180,7 +180,7 @@ function mostrarCasas(categoriaId = "") {
         <div class="casa-detalles">
           <h3 class="casa-titulo">${casa.titulo}</h3>
           <p class="casa-precio">$${casa.precio} por noche</p>
-          <button class="casa-reserva">RESERVAR</button>
+          <button class="casa-reserva">Más Info</button>
         </div>
       `;
       casasContainer.appendChild(div);
