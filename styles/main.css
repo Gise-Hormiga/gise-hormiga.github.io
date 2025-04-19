@@ -1,0 +1,329 @@
+@charset "UTF-8";
+/* Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* General */
+html {
+    /* 1 rem=10 px*/
+    font-size: 62.5%;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+header,
+.navbar {
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo img {
+    height: 85px;
+    padding-top: 10px;
+}
+
+.nav-botones {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+}
+
+.btn-alojamientos,
+.btnCerrar,
+.inicio {
+    background: white;
+    border: none;
+    cursor: pointer;
+    color: #165368;
+    font-weight: 400;
+    font-size: large;
+    text-decoration: none;
+}
+
+.btnEntrar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border: 1px solid #165368;
+    border-radius: 30px;
+    background: white;
+    cursor: pointer;
+}
+
+.btnEntrar i {
+    font-size: 20px;
+    color: #165368;
+}
+
+.btnCerrar i {
+    font-size: 20px;
+    color: #165368;
+    padding: 5px;
+    transform: rotate(90deg);
+    align-items: center;
+}
+
+.mi-popup {
+    width: 70%;
+    max-width: 600px;
+    font-size: 1rem;
+    background: #f2f2f2;
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+
+.swal2-input {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    gap: 15px;
+}
+
+.mi-titulo {
+    color: #165368;
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.mi-boton-confirmar {
+    background-color: #165368;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 30px;
+    padding: 1rem 1.8rem;
+}
+
+.mi-boton-cancelar {
+    background-color: #b0c3c9;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 30px;
+    padding: 1rem 1.6rem;
+}
+
+body {
+    text-align: center;
+}
+
+.contenedor-buscador {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../medios/banner_aire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.buscador {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+#categoria {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+}
+
+.destino {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: justify;
+    padding-left: 30px;
+    color: #165368;
+}
+
+.buscar {
+    background: #165368;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    align-items: end;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo-general, 
+.titulo-categoria {
+    color: #165368;
+    padding: 30px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.contenedor-todas-casas,
+.contenedor-destacadas,
+.casas-por-categoria {
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6rem;
+    align-items: center;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+
+.casas-por-categoria {
+    width: 100%;
+    height: 80vh;
+    padding-bottom: 50px;
+}
+
+.casa {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    height: 350px;
+    text-align: left;
+}
+
+.casa-imagen {
+    max-width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.casa-titulo {
+    font-size: 1.5rem;
+}
+
+.casa-detalles {
+    background-color: white;
+    color: #165368;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.casa-reserva {
+    border: 0;
+    background-color: #bb992b;
+    color: white;
+    padding: .4rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid #bb992b;
+    transition: background-color .2s, color .2s;
+    font-size: medium;
+}
+
+.casa-reserva:hover {
+    background-color: white;
+    color: #bb992b;
+}
+
+.contenedor-preguntas {
+    width: 100%;
+    background-color: white;
+    padding: 70px 50px 70px 50px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.contenedor-titulo h2 {
+    padding: 40px;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #165368;
+}
+
+.contenedor-titulo img {
+    width: 60%;
+    padding-left: 50px;
+}
+
+.accordion-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+    text-align: left;
+    background-color: white;
+}
+
+.accordion-button {
+    background-color: white;
+    padding: 15px;
+    font-size: large;
+    font-weight: 500;
+    color: #165368;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.contenedor-form {
+    margin: 20px;
+}
+
+footer {
+    background-color: #165368;
+    color: white;
+    height: 10vh;
+    padding-top: 25px;
+    font-size: medium;
+}

@@ -1,0 +1,233 @@
+[
+    {
+      "id": "playa-01",
+      "titulo": "Casa-playa-01",
+      "imagen": "/medios/playa1.png",
+      "categoria": {
+        "nombre": "Alojamientos en la playa",
+        "id": "playa"
+      },
+      "destacada": true,
+      "precio": 200,
+      "capacidad": 4,
+      "imagenes": [
+        "/medios/playa1.png",
+        "/medios/playa1a.png"
+      ],
+      "ubicacion": "Costa del Sol",
+      "descripcion": "Hermosa casa frente al mar con terraza privada y acceso directo a la playa.",
+      "servicios": ["WiFi", "Parrilla", "Aire acondicionado"]
+    },
+    {
+      "id": "playa-02",
+      "titulo": "Casa-playa-02",
+      "imagen": "/medios/playa2.png",
+      "categoria": {
+        "nombre": "Alojamientos en la playa",
+        "id": "playa"
+      },
+      "destacada": true,
+      "precio": 250,
+      "capacidad": 6,
+      "imagenes": [
+        "/medios/playa2.png",
+        "/medios/playa2a.png"
+      ],
+      "ubicacion": "Costa Esmeralda",
+      "descripcion": "Moderna casa con amplio jardín y galería con parrilla.",
+      "servicios": ["WiFi", "Sala de video", "Aire acondicionado"]
+    },
+    
+    {
+      "id": "playa-03",
+      "titulo": "Departamento-playa-03",
+      "imagen": "/medios/playa3.png",
+      "categoria": {
+        "nombre": "Alojamientos en la playa",
+        "id": "playa"
+      },
+      "destacada": false,
+      "precio": 150,
+      "capacidad": 2,
+      "imagenes": [
+        "/medios/playa3.png",
+        "/medios/playa3a.png"
+      ],
+      "ubicacion": "Pinamar",
+      "descripcion": "Departamento con vista al mar en complejo con pileta.",
+      "servicios": ["WiFi", "Gimnasio", "Pileta", "Aire acondicionado"]
+    },
+
+    {
+      "id": "playa-04",
+      "titulo": "Casa-playa-04",
+      "imagen": "/medios/playa4.png",
+      "categoria": {
+        "nombre": "Alojamientos en la playa",
+        "id": "playa"
+      },
+      "destacada": true,
+      "precio": 300,
+      "capacidad": 8,
+      "imagenes": [
+        "/medios/playa4.png",
+        "/medios/playa4a.png"
+      ],
+      "ubicacion": "Cariló",
+      "descripcion": "Hermosa casa rodeada de bosque a pocas cuadras del mar.",
+      "servicios": ["WiFi", "Parrilla", "Pileta", "Aire acondicionado"]
+    },
+    {
+      "id": "montaña-01",
+      "titulo": "Casa-montaña-01",
+      "imagen": "/medios/montaña1.png",
+      "categoria": {
+        "nombre": "Alojamientos en la montaña",
+        "id": "montaña"
+      },
+      "destacada": false,
+      "precio": 350,
+      "capacidad": 6,
+      "imagenes": [
+        "/medios/montaña1.png",
+        "/medios/montaña1a.png"
+      ],
+      "ubicacion": "El Bolsón",
+      "descripcion": "Hermosa casa rodeada de bosque muy cerca del lago.",
+      "servicios": ["WiFi", "Parrilla", "Pileta"]
+    },
+    {
+      "id": "montaña-02",
+      "titulo": "Duplex-montaña-02",
+      "imagen": "/medios/montaña2.png",
+      "categoria": {
+        "nombre": "Alojamientos en la montaña",
+        "id": "montaña"
+      },
+      "destacada": true,
+      "precio": 300,
+      "capacidad": 4,
+      "imagenes": [
+        "/medios/montaña2.png",
+        "/medios/montaña2a.png"
+      ],
+      "ubicacion": "Bariloche",
+      "descripcion": "Moderno duplex con terraza privada y vista al lago.",
+      "servicios": ["WiFi", "Club House", "Pileta"]
+    },
+    {
+      "id": "montaña-03",
+      "titulo": "Duplex-montaña-03",
+      "imagen": "/medios/montaña3.png",
+      "categoria": {
+        "nombre": "Alojamientos en la montaña",
+        "id": "montaña"
+      },
+      "destacada": true,
+      "precio": 250,
+      "capacidad": 4,
+      "imagenes": [
+        "/medios/montaña3.png",
+        "/medios/montaña3a.png"
+      ],
+      "ubicacion": "Villa La Angostura",
+      "descripcion": "Amplio y moderno duplex con terraza privada y vista al lago.",
+      "servicios": ["WiFi", "Gimnasio", "Juegos Infantiles"]
+    },
+    {
+      "id": "montaña-04",
+      "titulo": "Departamento-montaña-04",
+      "imagen": "/medios/montaña4.png",
+      "categoria": {
+        "nombre": "Alojamientos en la montaña",
+        "id": "montaña"
+      },
+      "destacada": false,
+      "precio": 150,
+      "capacidad": 2,
+      "imagenes": [
+        "/medios/montaña4.png",
+        "/medios/montaña4a.png"
+      ],
+      "ubicacion": "Bariloche",
+      "descripcion": "Departamento céntrico, muy buena ubicación con vista al lago.",
+      "servicios": ["WiFi", "Aire acondicionado", "Gimnasio"]
+    },
+    {
+      "id": "ciudad-01",
+      "titulo": "Casa-ciudad-01",
+      "imagen": "/medios/ciudad1.png",
+      "categoria": {
+        "nombre": "Alojamientos en la ciudad",
+        "id": "ciudad"
+      },
+      "destacada": true,
+      "precio": 200,
+      "capacidad": 2,
+      "imagenes": [
+        "/medios/ciudad1.png",
+        "/medios/ciudad1a.png"
+      ],
+      "ubicacion": "Belgrano",
+      "descripcion": "Departamento céntrico con balcón privado y vistas panorámicas a la ciudad.",
+      "servicios": ["WiFi", "Aire acondicionado", "Pileta"]
+    },
+    {
+      "id": "ciudad-02",
+      "titulo": "Casa-ciudad-02",
+      "imagen": "/medios/ciudad2.png",
+      "categoria": {
+        "nombre": "Alojamientos en la ciudad",
+        "id": "ciudad"
+      },
+      "destacada": true,
+      "precio": 170,
+      "capacidad": 2,
+      "imagenes": [
+        "/medios/ciudad2.png",
+        "/medios/ciudad2a.png"
+      ],
+      "ubicacion": "Palermo",
+      "descripcion": "Moderno y amplio monoambiente céntrico.",
+      "servicios": ["WiFi", "Laundry", "Aire acondicionado"]
+    },
+    {
+      "id": "ciudad-03",
+      "titulo": "Casa-ciudad-03",
+      "imagen": "/medios/ciudad3.png",
+      "categoria": {
+        "nombre": "Alojamientos en la ciudad",
+        "id": "ciudad"
+      },
+      "destacada": false,
+      "precio": 120,
+      "capacidad": 2,
+      "imagenes": [
+        "/medios/ciudad3.png",
+        "/medios/ciudad3a.png"
+      ],
+      "ubicacion": "Balvanera",
+      "descripcion": "Departamento ubicado en el centro histórico de la ciudad, a 100 metros de la emblemática avenida Corrientes.",
+      "servicios": ["WiFi", "Laundry", "Aire acondicionado"]
+    },
+    {
+      "id": "ciudad-04",
+      "titulo": "Departamento-ciudad-04",
+      "imagen": "/medios/ciudad4.png",
+      "categoria": {
+        "nombre": "Alojamientos en la ciudad",
+        "id": "ciudad"
+      },
+      "destacada": true,
+      "precio": 150,
+      "capacidad": 2,
+      "imagenes": [
+        "/medios/ciudad4.png",
+        "/medios/ciudad4a.png"
+      ],
+      "ubicacion": "Las Cañitas",
+      "descripcion": "Moderno y luminoso monoambiente céntrico.",
+      "servicios": ["WiFi", "Solarium", "Aire acondicionado"]
+    }
+]
+  
